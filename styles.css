@@ -1,0 +1,45 @@
+body {
+  position: relative;
+}
+
+nav {
+  box-shadow: rgb(0 0 0 / 8%) 0px 1px 12px;
+}
+
+.landing {
+  background-image: url(./assets/images/bg1.webp);
+  background-size: 100%;
+  background-position: 0 59px;
+  height: 100vh;
+  display: flex;
+  align-items: flex-end;
+  background-repeat: no-repeat;
+}
+
+section {
+  margin-bottom: 100px;
+}
+
+.container section {
+  padding-top: 67px;
+}
+
+.explore-nearby .card img {
+  width: 64px;
+  height: 64px;
+}
+
+#explore .card,
+#discover .card {
+  border: none;
+}
+
+@media (max-width: 740px) {
+  .landing {
+    background-image: url(./assets/images/bg2.webp);
+  }
+
+  section {
+    margin-bottom: 50px;
+  }
+}
